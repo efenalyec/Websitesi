@@ -1,0 +1,113 @@
+/* Genel Stil */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Başlık ve Navigasyon Menüsü */
+header {
+    background-color: #ff4500;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #ff6347;
+}
+
+/* Ana İçerik */
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ff4500;
+    margin-top: 1em;
+    border-bottom: 2px solid #ff4500;
+    padding-bottom: 0.5em;
+}
+
+.oyun-gorsel {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto 2em;
+}
+
+p {
+    text-align: justify;
+}
+
+.karakter {
+    margin-bottom: 1.5em;
+}
+
+.karakter h3 {
+    color: #ff6347;
+}
+
+.karakter p {
+    text-align: justify;
+}
+
+/* İletişim Bölümü */
+#iletisim p {
+    text-align: center;
+}
+
+#iletisim a {
+    color: #ff4500;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#iletisim a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #ff4500;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+/* Responsive Tasarım */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    main {
+        margin: 1em;
+        padding: 0.5em;
+    }
+}
